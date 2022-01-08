@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["microservices-monitor/microservices-monitor.csproj", "microservices-monitor/"]
-RUN dotnet restore "microservices-monitor/microservices-monitor.csproj"
+COPY ["microservices-monitor.csproj", "."]
+RUN dotnet restore "./microservices-monitor.csproj"
 COPY . .
-WORKDIR "/src/microservices-monitor"
+WORKDIR "/src/."
 RUN dotnet build "microservices-monitor.csproj" -c Release -o /app/build
 
 FROM build AS publish

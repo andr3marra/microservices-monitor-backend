@@ -1,8 +1,5 @@
 using microservices_monitor.BackgoundServices;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using microservices_monitor.Modules;
 
 namespace microservices_monitor // Note: actual namespace depends on the project name.
 {
@@ -24,7 +21,7 @@ namespace microservices_monitor // Note: actual namespace depends on the project
             builder.Services.AddSwaggerGen();
             builder.Services.AddSingleton<ServiceStatusCollector>();
             builder.Services.AddSingleton<ServicesRepository>();
-            
+
 
 
             // doing stuf 
@@ -54,6 +51,6 @@ namespace microservices_monitor // Note: actual namespace depends on the project
             app.Run();
         }
 
-        
+
     }
 }

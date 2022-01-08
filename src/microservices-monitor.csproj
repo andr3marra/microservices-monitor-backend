@@ -7,6 +7,7 @@
     <RootNamespace>microservices_monitor</RootNamespace>
     <UserSecretsId>1edd11ed-2b28-4eac-b489-96e4193387e9</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>

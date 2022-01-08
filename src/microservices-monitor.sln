@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservices-monitor", "microservices-monitor\microservices-monitor.csproj", "{30807E76-2478-4252-9CCE-8F5F7E6B2F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microservices-monitor", "microservices-monitor.csproj", "{51B09294-9365-4CDE-8D1E-805CE2E84FC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30807E76-2478-4252-9CCE-8F5F7E6B2F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30807E76-2478-4252-9CCE-8F5F7E6B2F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30807E76-2478-4252-9CCE-8F5F7E6B2F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30807E76-2478-4252-9CCE-8F5F7E6B2F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B09294-9365-4CDE-8D1E-805CE2E84FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B09294-9365-4CDE-8D1E-805CE2E84FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B09294-9365-4CDE-8D1E-805CE2E84FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B09294-9365-4CDE-8D1E-805CE2E84FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
